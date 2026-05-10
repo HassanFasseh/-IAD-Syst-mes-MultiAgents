@@ -49,14 +49,15 @@ Utilisation de l'interface
 
 Paramètres par défaut justifiés
 
-| Paramètre | Valeur | Justification |
-|--|--||
-| α (learning rate) | 0.10 | Convergence stable sans oscillations |
-| γ (discount) | 0.95 | Horizon long mais pas infini |
-| ε initial | 1.0 | Exploration totale au début |
-| ε decay | 0.995 | ~600 épisodes pour atteindre ε_min |
-| ε_min | 0.05 | Garde une légère exploration |
-| Files discrétisées | 0–5 | Compromis espace d'états / précision |
+| Paramètre          | Valeur | Explication simple                          |
+| ------------------ | ------ | ------------------------------------------- |
+| α (learning rate)  | 0.10   | Apprentissage stable et progressif          |
+| γ (discount)       | 0.95   | L’agent prend en compte le futur            |
+| ε initial          | 1.0    | Exploration complète au départ              |
+| ε decay            | 0.995  | Réduction progressive de l’exploration      |
+| ε_min              | 0.05   | Garde un peu d’exploration                  |
+| Files discrétisées | 0–5    | Bon équilibre entre précision et simplicité |
+
 
 
 
