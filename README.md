@@ -4,24 +4,6 @@ Projet| Cycle Ingénieur 2025–2026
 Agent Q-Learning tabulé pour l'optimisation d'un carrefour à 4 branches.
 
 
-
-Structure du projet
-
-
-traffic_project/
-├── src/
-│   ├── intersection.py   # Simulation du carrefour (séparable de l'agent)
-│   ├── agent.py          # Agent Q-Learning + Baseline
-│   ├── train.py          # Script d'entraînement (CLI)
-│   ├── evaluate.py       # Script d'évaluation + export figures
-│   └── gui.py            # Interface graphique (point d'entrée principal)
-├── figures/              # Courbes exportées (générées automatiquement)
-├── outputs/              # Tables Q sauvegardées
-└── README.md
-
-
-
-
 Installation
 
 bash
